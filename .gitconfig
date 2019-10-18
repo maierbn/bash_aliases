@@ -1,0 +1,33 @@
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  ull = pull
+  upll = pull
+  pul = pull
+  plul = pull
+  psuh = push
+  pushg = push
+  pusg = push
+  ush = push
+  pu = push
+  p = push
+  pus = push
+  suh = push
+  suhg = push
+  tpush = push
+  tpushg = push
+  tpull = pull
+  tpullg = pull
+[user]
+  name = Benjamin Maier
+  email = maier.bn@gmail.com
+[push]
+  default = simple
+[core]
+	editor = vi
+[http "https://gitlab-sgs.informatik.uni-stuttgart.de"]
+	sslVerify = false
+[diff]
+	tool = meld
