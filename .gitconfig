@@ -20,14 +20,19 @@
   tpushg = push
   tpull = pull
   tpullg = pull
+  undo-merge = reset --merge ORIG_HEAD
 [user]
-  name = Benjamin Maier
-  email = maier.bn@gmail.com
+        name = Benjamin Maier
+        email = maier.bn@gmail.com
 [push]
-  default = simple
+        default = simple
 [core]
 	editor = vi
 [http "https://gitlab-sgs.informatik.uni-stuttgart.de"]
 	sslVerify = false
 [diff]
 	tool = meld
+[http]
+	sslverify = false
+[init]
+	templatedir = /home/maierbn/.git-templates
